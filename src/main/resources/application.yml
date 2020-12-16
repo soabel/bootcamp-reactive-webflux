@@ -1,0 +1,8 @@
+server:
+  port: 9091
+
+spring:
+  r2dbc:
+    url: r2dbc:pool:mssql://db-server-bootcamp.database.windows.net:1433/demo-bootcamp
+    username: appuser@db-server-bootcamp
+    password: P@ssword
